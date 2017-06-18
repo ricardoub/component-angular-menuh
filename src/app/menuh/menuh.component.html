@@ -1,3 +1,77 @@
-<p>
-  menuh works!
-</p>
+<nav class= "navbar navbar-toggleable-md navbar-light bg-faded menuh" >
+  <div class="container">
+    <button class= "navbar-toggler navbar-toggler-right" type= "button" 
+      data-toggle= "collapse" data-target= "#navbarTogglerMenuh" 
+      aria-controls= "navbarTogglerDemo02" aria-expanded= "false" 
+      aria-label= "Toggle navigation" >
+      <span class= "navbar-toggler-icon" ></span>
+    </button>
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo-caixa-x.png"/> SILOG
+    </a>
+    <div class= "collapse navbar-collapse" id= "navbarTogglerMenuh" >
+      <ul class= "navbar-nav mr-auto mt-2 mt-md-0" >
+        <li class= "nav-item active" >
+          <a class="nav-link active" href="#">
+            <i class="fa fa-fw fa-home"></i>
+            Home
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" 
+            id="ddMonitoramentos" data-toggle="dropdown" aria-haspopup="true" 
+            aria-expanded="false">
+            <i class="fa fa-fw fa-barcode"></i>
+            Monitoramentos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="ddMonitoramentos">
+            <a class="dropdown-item" href="monitoramentos.html" tabindex="0">
+              <i class="fa fa-barcode"></i> Monitoramentos
+              <small class="text-muted"> (GRP:MNTTO.list)</small>
+            </a>
+            <a class="dropdown-item" href="passagemexpedicao.html" tabindex="0">
+              <i class="fa fa-barcode"></i> Passagem Expedição
+              <small class="text-muted"> (GRP:PSSGM.list)</small>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item dropdown float-right">
+          <a class="nav-link dropdown-toggle" href="#" 
+            id="ddMonitoramentos" data-toggle="dropdown" aria-haspopup="true" 
+            aria-expanded="false">
+            <i class="fa fa-fw fa-inbox"></i>
+            Serviços
+          </a>
+          <div class="dropdown-menu" aria-labelledby="ddMonitoramentos">
+            <a class="dropdown-item" href="monitoramentos.html" tabindex="0">
+              <i class="fa fa-barcode"></i> Monitoramentos
+              <small class="text-muted"> (GRP:MNTTO.list)</small>
+            </a>
+            <a class="dropdown-item" href="passagemexpedicao.html" tabindex="0">
+              <i class="fa fa-barcode"></i> Passagem Expedição
+              <small class="text-muted"> (GRP:PSSGM.list)</small>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" 
+            id="ddProfile" data-toggle="dropdown" aria-haspopup="true" 
+            aria-expanded="false">
+            <i class="fa fa-fw fa-user"></i>
+            C032550
+          </a>
+          <div class="dropdown-menu" aria-labelledby="ddProfile">
+            <a class="dropdown-item" href="profile.html" tabindex="0">
+              <i class="fa fa-user"></i> Profile
+            </a>
+            <a class="dropdown-item" href="logout.html" tabindex="0">
+              <i class="fa fa-sign-out"></i> Sair
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
